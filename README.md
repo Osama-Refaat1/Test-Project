@@ -1,4 +1,4 @@
-# nopCommerce Testing Project
+# nopCommerce Testing Project (Testing course project).
 
 This project tests key features of the nopCommerce website to make sure they work correctly.
 
