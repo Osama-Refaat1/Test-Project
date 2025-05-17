@@ -1,4 +1,4 @@
-
+@RegressionTest
 Feature: Users could register with new accounts
   Scenario:user could register with valid data successfully
     When User go to register page

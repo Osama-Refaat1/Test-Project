@@ -1,5 +1,5 @@
+@RegressionTest
 Feature: user should be able to login to the system
-
   #test scenario 1 : valid credentials
   Scenario: user login with valid username and password
   When user open browser

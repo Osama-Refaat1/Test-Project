@@ -1,3 +1,4 @@
+@RegressionTest
 Feature: user should be able to login to the system
   Background: user go to login page
   When user goes to login page

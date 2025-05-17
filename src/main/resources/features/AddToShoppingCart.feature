@@ -1,4 +1,4 @@
-@regression
+@RegressionTest
 Feature: user could add different products to Shopping cart
   Scenario: user add product to shopping cart
     When user click on the add to cart button
