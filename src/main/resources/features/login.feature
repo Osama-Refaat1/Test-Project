@@ -2,7 +2,7 @@ Feature: user should be able to login to the system
 
   #test scenario 1 : valid credentials
   Scenario: user login with valid username and password
-  Given user open browser
+  When user open browser
   And user navigates to login page
 
   When user enter valid username and password

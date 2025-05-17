@@ -1,7 +1,7 @@
 
 Feature: Users could register with new accounts
   Scenario:user could register with valid data successfully
-    Given User go to register page
+    When User go to register page
     When User select the type of gender
     And User enter the first and last name
     And User enter the email

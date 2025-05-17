@@ -14,7 +14,7 @@ public class ResetStepDefinition
 
    ResetPage resetPage;
 
-    @Given("user goes to login page")
+    @When("user goes to login page")
     public void user_goes_to_login_page() throws InterruptedException {
         resetPage = new ResetPage(driver);
         driver.navigate().to("https://demo.nopcommerce.com/login");
@@ -31,7 +31,7 @@ public class ResetStepDefinition
 
     }
 
-    @Then("user navigate to forget Page and enter his email")
+    @Then("user navigate to forget Page and enter his email {string}")
     public void user_navigates_to_fp_page_and_enter_email(String email) throws InterruptedException {
         resetPage.enterEmail(email);
         Thread.sleep(2000);
@@ -53,7 +53,7 @@ public class ResetStepDefinition
         System.out.println("5");
 
     }
-    @Then(" Then user navigate to forget Page and enter his email")
+    @Then(" Then user navigate to forget Page and enter his email {string}")
     public void user_enter_invalid_email(String email) throws InterruptedException {
         resetPage.enterEmail(email);
         Thread.sleep(2000);

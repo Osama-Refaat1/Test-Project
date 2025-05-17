@@ -12,7 +12,7 @@ public class LoginStepDefinition {
     WebDriver driver = Hooks.driver;
     LoginPage loginPage;
 
-    @Given("user open browser")
+    @When("user open browser")
     public void user_open_browser()  {
             loginPage = new LoginPage(driver);
     }

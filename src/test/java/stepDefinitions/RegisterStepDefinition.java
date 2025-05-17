@@ -11,7 +11,7 @@ public class RegisterStepDefinition {
     WebDriver driver = Hooks.driver;
     RegistrationPage registrationPage;
 
-    @Given("User go to register page")
+    @When("User go to register page")
     public void userGoToRegisterPage() throws InterruptedException {
         registrationPage = new RegistrationPage(driver);
         driver.get("https://demo.nopcommerce.com/register");
